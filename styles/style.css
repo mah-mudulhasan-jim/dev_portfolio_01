@@ -6,9 +6,11 @@ body{
 /* nav related styles */
 nav{
     display: flex;
+    justify-content: space-between;
 }
 nav> ul{
     display: flex;
+    align-items: center;
 }
 nav > ul >li> a{
     text-decoration: none;
@@ -33,13 +35,13 @@ nav > ul >li{
 .btn_primary{
     width: 150px;
     height: 64px;
-    flex-shrink: 0;
     background-color: #FD6E0A;
+    border: 5px;
     border-style: none;
     border-radius: 5px;
 }
 .hire_class{
-    color: var(--white-color, #FFF);
+    color: #FFF;
     width: 79px;
     height: 27px;
     font-size: 20px;
