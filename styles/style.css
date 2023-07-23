@@ -1,41 +1,46 @@
 /* shared styles for all */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     width: 1600px;
     height: 858px;
 }
 
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
-    margin: 0 200px ;
+    margin: 0 200px;
 }
-nav> ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav > ul >li> a{
+
+nav>ul>li>a {
     text-decoration: none;
     color: #474747;
 }
-nav > ul >li{
-    list-style:none;
+
+nav>ul>li {
+    list-style: none;
     margin-right: 51px;
 }
 
 /* styles on h3 "Mary" */
-.nav_title{
+.nav_title {
     color: var(--dark-01, #181818);
     font-size: 45px;
     font-weight: 800;
 }
-.primary_text{
+
+.primary_text {
     color: #FD6E0A;
 
 }
+
 /* styles on buttons _hire me_*/
-.btn_primary{
+.btn_primary {
     color: #FFF;
     font-size: 20px;
     width: 150px;
@@ -47,36 +52,41 @@ nav > ul >li{
 }
 
 /* styles on header section */
-.header_class{
+.header_class {
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, center left;
 
 }
-.banner{
+
+.banner {
     display: flex;
     padding: 30px 30px 0px 150px;
     justify-content: space-between;
 }
-.hardy_img{
+
+.hardy_img {
     width: 584px;
     height: 676px;
 }
-.greet_class{
+
+.greet_class {
     color: #474747;
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 5px;
 }
-.name_class{
+
+.name_class {
     color: #181818;
     font-size: 85px;
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
 }
-.para_class{
+
+.para_class {
     width: 585px;
     color: #757575;
     font-size: 18px;
@@ -84,19 +94,22 @@ nav > ul >li{
     line-height: 30px;
     margin-top: 0px;
 }
+
 /* main section styles */
-main{
+main {
     margin: 0 auto;
     max-width: 1140px;
 }
+
 /* about section styles */
-.about_class{
+.about_class {
     margin-top: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     padding: 130px
 }
-.section_title{
+
+.section_title {
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -104,7 +117,8 @@ main{
     /* padding: 130px; */
     /* margin-bottom: 30px; */
 }
-.para_description{
+
+.para_description {
     margin-top: 0px;
     text-align: center;
     /* width: 827px; */
@@ -114,36 +128,43 @@ main{
     /* padding: 209px 157px 221px 156px; */
     /* padding: 130px; */
 }
-.about_info_container{
+
+.about_info_container {
     /* padding: 10px; */
     /* margin: 10px; */
     display: flex;
     justify-content: space-around;
 }
-.about_info{
+
+.about_info {
     text-align: center;
 }
-.skill_container{
+
+.skill_container {
     display: flex;
 }
-.skill{
+
+.skill {
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px 33px;
     margin: 15px;
 }
-.skill_title{
+
+.skill_title {
     color: var(--dark-01, #181818);
     font-size: 20px;
     font-weight: 700;
 }
-.skill_description{
+
+.skill_description {
     text-align: center;
     color: var(--dark-03, #a39d9d);
     background-color: #f0ebeb;
     box-shadow: 5px 5px 15px 15px #f0ebeb;
     font-size: 16px;
     font-weight: 400;
-    line-height: 28px; /* 175% */
+    line-height: 28px;
+    /* 175% */
 }
