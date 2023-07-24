@@ -168,6 +168,8 @@ main {
     line-height: 28px;
     /* 175% */
 }
+
+/* resume srction styles */
 /* .resume_container {
     display: flex;
     
@@ -179,6 +181,12 @@ main {
     background: #D1D1D1;
     background-size: 558px 1px ;
 } */
-.resume_container{
+.resume_container {
     display: flex;
+}
+
+.resume_col_title {
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
