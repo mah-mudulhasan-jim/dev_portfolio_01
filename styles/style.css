@@ -68,7 +68,7 @@ nav>ul>li {
 
 .hardy_img {
     width: 584px;
-    height: 676px;
+    height: 720px;
 }
 
 .greet_class {
@@ -160,11 +160,25 @@ main {
 
 .skill_description {
     text-align: center;
-    color: var(--dark-03, #a39d9d);
+    color: #a39d9d;
     background-color: #f0ebeb;
     box-shadow: 5px 5px 15px 15px #f0ebeb;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
     /* 175% */
+}
+/* .resume_container {
+    display: flex;
+    
+}
+.resume_container > div{
+    margin: 50px;
+}
+.education > div{
+    background: #D1D1D1;
+    background-size: 558px 1px ;
+} */
+.resume_container{
+    display: flex;
 }
