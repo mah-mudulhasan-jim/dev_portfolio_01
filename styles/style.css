@@ -43,13 +43,15 @@ nav>ul>li {
 .btn_primary {
     color: #FFF;
     font-size: 20px;
-    width: 150px;
+    width: 200px;
     height: 64px;
     background-color: #FD6E0A;
     border: 5px;
     border-style: none;
     border-radius: 5px;
+    margin-right: 10px;
 }
+
 
 /* styles on header section */
 .header_class {
