@@ -187,20 +187,54 @@ main {
 }
 
 .resume_col_title {
-    color:  #474747;
+    color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
-.download_btn{
+
+.download_btn {
     text-align: center;
     margin-bottom: 113px;
 }
+
 /* footer styles */
-footer{
+footer {
     display: flex;
     padding: 130px 230px 130px 230px;
     background: #FFF8F3;
+    gap: 50px;
 }
-.social_links a{
+
+.social_links a {
     margin-right: 24px;
+}
+
+.footer_col {
+    width: 50%;
+}
+
+.footer_form input[type="text"], .footer_form input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 50px;
+    border: 0;
+    padding: 20px 155px 18px 30px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#text {
+    width: 461px;
+    height: 180px;
+}
+
+.email {
+    width: 461px;
+    height: 64px;
+}
+#name_id{
+    width: 461px;
+    height: 64px;
 }
