@@ -169,7 +169,7 @@ main {
     /* 175% */
 }
 
-/* resume srction styles */
+/* resume section styles */
 /* .resume_container {
     display: flex;
     
@@ -183,10 +183,15 @@ main {
 } */
 .resume_container {
     display: flex;
+    gap: 24px;
 }
 
 .resume_col_title {
     color:  #474747;
     font-size: 30px;
     font-weight: 700;
+}
+.download_btn{
+    text-align: center;
+    margin-bottom: 113px;
 }
